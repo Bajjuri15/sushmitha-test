@@ -1,13 +1,12 @@
-# sushmitha-test
+HelloWorld
+==========
 
-echo "# sushmitha-test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Bajjuri15/sushmitha-test.git
-git push -u origin master
+A simple Java application that can be compiled into a .jar file using Maven.
 
-…or push an existing repository from the command line
+To build
+--------
+    mvn clean package
 
-git remote add origin https://github.com/Bajjuri15/sushmitha-test.git
-git push -u origin master
+To run
+------
+    java -cp target/helloworld-1.0.jar com.coveros.demo.helloworld.HelloWorld
